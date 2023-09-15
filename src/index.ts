@@ -9,7 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
     {
       title: 'yesicon',
       scripts: ['main.js'],
-      viewColumn:vscode.ViewColumn.Beside
+      viewColumn: vscode.ViewColumn.Beside,
     },
   ) // css样式引入，本地css需要配置在media目录下
 
@@ -46,4 +46,3 @@ export function activate(context: vscode.ExtensionContext) {
 
 export function deactivate() {
 }
-
